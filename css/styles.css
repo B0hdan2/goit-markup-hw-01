@@ -1,0 +1,162 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;   
+    --button-color:#F5F4FA;
+    --praimary-white-color:#FFFFFF;
+    --background-color:#2F303A;
+}
+
+
+body{
+    background-color: #EEEEEE;
+    color:var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1,87;
+}
+
+
+.list{
+    list-style: none;
+}
+
+/*logo*/
+.logo{
+    color: #000000;
+font-weight: 700;
+
+
+
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+.logo.title{
+    color: var(--accent-color);
+}
+/*сайт*/
+.site-nav .link{
+    color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+/*портфоліо*/
+.list.title{
+    color: var(--title-text-color);
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+}
+.list.text{
+    color: var(--primary-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,87;
+}
+/*кнопки*/
+.button{
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+
+    font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+}
+.button:hover,
+.button:focus{
+    color: var(--praimary-white-color);
+    background-color: var(--accent-color);
+}
+.button.primary{
+    color: var(--praimary-white-color);
+    background-color: var(--accent-color);
+}
+.button.primary:hover,
+.button.primary:focus{
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+}
+
+
+/*секції*/
+.hero.title{
+    color: var(--praimary-white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+}
+
+
+.section-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+
+}
+.feature-list .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+
+}
+.title-text{
+    color: var(--primary-text-color);
+    font-weight: 400;
+font-size: 14px;
+line-height: 1,71;
+    
+}
+.feature-list .text{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+
+
+
+/*підвал*/
+.current{
+    color: var(--praimary-white-color);
+}
+.current:hover,
+.current:focus{
+color: var(--accent-color);
+}
+
+.mail{
+    color: var(--primary-text-color);  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+}
+.number{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+
+}
+ .mail:hover,
+ .mail:focus,
+ .number:hover,
+ .number:focus {
+    color: var(--accent-color);
+}
+
